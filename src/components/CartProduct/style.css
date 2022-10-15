@@ -1,0 +1,42 @@
+.cartProduct {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cartProductImg {
+    max-width: 70px;
+    max-height: 70px;
+    background-color: var(--color-grey-3);
+}
+
+.cartProductImg > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cartProductInfos {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.buttonRemoveCart {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    border: none;
+    color: var(--color-grey-2);
+}
+
+.productQuantity {
+    position: absolute;
+    bottom: 10px;
+    right: 5%;
+}
+
+.productName {
+    max-width: 80%;
+}

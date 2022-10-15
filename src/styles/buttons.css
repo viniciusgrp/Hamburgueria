@@ -1,0 +1,24 @@
+.buttonDefault {
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: var(--color-white);
+    border: none;
+}
+
+.buttonDefault:hover {
+    background-color: var(--color-primary-2);
+}
+
+.buttonGrey {
+    background-color: var(--color-grey-3);
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: var(--color-grey-2);
+    border: none;
+}
+
+.buttonGrey:hover {
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-3);
+}
